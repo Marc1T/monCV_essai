@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mon CV en ligne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons8-developer-50.png" type="image/png">
+</head>
+<body>
+    <div class="container"> 
+        <header> 
+            <h1> Mon CV </h1> 
+            <p>Un aperçu de mon parcours professionnel et de mes compétences </p> 
+        </header>
+        <section>
+            <h2 class="section-title">Informations personnelles</h2>
+            <!-- L'attribut srcset est super pratique pour la réactivité des images!
+             Il permet de définir différentes images en fonction de la résolution de l'écran ou de la taille de la fenêtre du navigateur.
+             ex srcset="photo-basse-res.jpg 480w,
+             photo-moyenne-res.jpg 800w,
+             photo-haute-res.jpg 1200w" -->
+            <a href="assets/photo.png" target="_blank" rel="noopener noreferrer"><img src="assets/photo.png" alt="Photo de profil" style="width: 150px; height: 150px; border-radius: 50%;"></a>
+            <!-- Le rel (relationship) dans une balise <a> sert à définir la relation entre le document actuel et le document lié. Par exemple, noopener empêche la nouvelle page de contrôler l'ancienne,
+                 et noreferrer empêche d'envoyer les informations de référence à la nouvelle page. Cela améliore la sécurité et la vie privée des utilisateurs en évitant certaines attaques et en limitant 
+                 le partage d'informations. C'est particulièrement utile quand tu ouvres des liens dans de nouveaux onglets! -->
+            <p><strong>Nom : </strong>NANKOULI </p>
+            <p><strong>Prénoms: </strong>Marc Thierry </p>
+            <p><strong>Email : </strong> <a href="mailto:nankoulithierry@gmail.com" target="_blank">nankoulithierry@gmail.com </a></p>
+            <p><strong>Téléphone : </strong><a href="tel:+212627978862" target="_blank">0627978862 </a></p>
+            <p><strong>WhatsApp : </strong><a href="https://wa.me/qr/XES6XJX5FMKHB1" target="_blank">+22672392801 </a></p>
+        </section>
+        <section>
+            <h2 class="section-title"> Expérience professionnelle </h2>
+            <ul>
+                <li><strong>Développeur Web </strong> chez son propre compte (2023 - present)
+                <p>Développement d'applications web dynamiques en utilisant HTML, CSS, JavaScript.</p></li>
+                <li><strong>Stigiaire en Informatique</strong> chez lui même 😊(2022 - 2023)
+                <p>Création de site vitrines pour petites entreprises et optimisation SEO.</p></li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="section-title">Formation </h2>
+            <table>
+                <tr>
+                    <th>Année</th>
+                    <th>Dipôme</th>
+                    <th>Établissement</th>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>DEUG en SMI</td>
+                    <td>FDSM</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Baccalauréat</td>
+                    <td>CPMC</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2 class="section-title ">Centres d'intérêt</h2>
+            <p>Tecnologies, Voyage, Sport, Musique</p>
+        </section>
+        <a href="4" download=""><button>Télécharger mon CV en PDF</button></a>
+        <section> 
+            <!-- <h2 class="section-title">Contactez-moi</h2> 
+            <form action="/submit-form" method="post" target="_blank"> 
+                <label for="name">Nom :</label><br> 
+                <input id="name" name="name"  type="text" placeholder="Votre nom" required><br><br>
+                <label for="email">Email :</label><br> 
+                <input id="email" name="email" type="email" placeholder="Votre email" required><br><br> 
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message" required></textarea><br><br> 
+                <button type="submit">Envoyer</button> 
+            </form>  -->
+            <h2 class="section-title">Laissez un Commentaire</h2>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZKbBlDWm8eB2e0y7AXKxMZ0mKi4bD537s0zjsPf1NWRg8yg/viewform" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        </section> 
+</body>
+</html>
